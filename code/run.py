@@ -11,8 +11,8 @@ PRINT_IN_TERMINAL = True
 REPEAT = 100
 
 algorithms = [
-    Algorithm("DEPTH", search.depth_first_graph_search),
     Algorithm("BREADTH", search.breadth_first_graph_search),
+    Algorithm("DEPTH", search.depth_first_graph_search),
     Algorithm("B&B", search.branch_and_bound_search),
     Algorithm("B&B WITH SUBESTIMATION", search.branch_and_bound_search_with_subestimation)
 ]
@@ -38,7 +38,7 @@ def test_search(func, title):
 
     temp = (time.perf_counter_ns() - temp) * 0.001 / REPEAT
 
-    if PRINT_IN_TERMINAL: print("\n\tExecution time: ", temp, "ps")
+    # if PRINT_IN_TERMINAL: print("\n\tExecution time: ", temp, "ps")
     if PRINT_IN_TERMINAL: print("\tTotal cost: ", node.path_cost, "-", node.path())
 
     return temp
