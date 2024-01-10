@@ -35,3 +35,6 @@ In the PriorityQueue class, we sort the list by accumulated cost using the sorte
 
 Similarly, in the PriorityQueueWithSubestimation class, we perform the same operations, sorting by the sum of the accumulated cost and the heuristic for both append and extend methods as in Branch and Bound.
 
+## Comparative table
+![Comparative table](tabla_fsi.png)
+
