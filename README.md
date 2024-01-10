@@ -4,7 +4,7 @@
 - **Degree**: Grado en Ciencia e Ingeniería de Datos
 - **Course**: 2º year, group 18.43
 - **Subject**: Fundamentos de los Sistemas Inteligentes
-- **Authors**: Daniel López Correas y Nicole Ortega Ojeda
+- **Authors**: Daniel López Correas and Nicole Ortega Ojeda
 
 ## Functionality
 
